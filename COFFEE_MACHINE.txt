@@ -1,0 +1,19 @@
+report(): 
+This function displays the current amount of water, milk, and coffee beans in the coffee machine.
+
+check_resources(flavour): 
+This function checks if there are enough resources to make the desired coffee flavour. It takes the flavour as input and returns True if the resources are sufficient, and False otherwise.
+
+process_coins(quarter,dime,nickel,penny): 
+This function processes the inserted coins by calculating their total value. It takes the number of quarters, dimes, nickels, and pennies as input and returns the total amount.
+
+transaction(funds,flavour): 
+This function handles the transaction between the customer and the coffee machine. It takes the amount of money the customer has and the desired coffee flavour as input. If the customer has enough money, the function returns the remaining amount after the transaction. If the customer doesn't have enough money, the function returns -1.
+
+modify_resources(flavour): 
+This function updates the ingredients of the coffee machine after a successful transaction. It takes the flavour of the coffee that was made as input and adjusts the amounts of water, milk, and coffee beans accordingly.
+
+coffee(): 
+This function is the main control flow of the program. It defines an infinite loop that allows the customer to interact with the coffee machine. The customer can choose to report the current resources, select a coffee flavour, or end the interaction by entering an empty string.
+
+the coffee() function is called to start the simulation.
